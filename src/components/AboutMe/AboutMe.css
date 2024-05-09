@@ -1,0 +1,40 @@
+h1 {
+    font-size: 5vmin;
+}
+
+.profile-pic {
+    width:25vmax;
+    height:25vmax;
+    border-radius: 50%;
+    padding: 3vmin;
+}
+
+.about-me {
+    align-items: center;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5vmin;
+    padding-top: 2vmin;
+}
+
+.social-icons img {
+    height: 50px;
+    width: 50px;
+}
+
+.description {
+    padding: 5vmin;
+}
+
+.icon {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}

@@ -1,0 +1,31 @@
+.skills-title {
+    padding-top: 5vmin;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.icons-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    padding: 5vmin;
+}
+
+.icons-container img {
+    width: 100px;
+    height: auto; 
+    padding: auto;
+}
+
+
+@media (max-width: 768px) {
+    .icons-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 576px) {
+    .icons-container {
+        grid-template-columns: 1fr; 
+    }
+}
